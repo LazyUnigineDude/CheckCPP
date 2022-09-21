@@ -38,11 +38,11 @@ int main() {
 	/*
 		Arrays
 		Lists
-		Linked List
-		Doubly Linked Lists
 		Vector
 		Stacks
 		Queues
+		Linked List
+		Doubly Linked Lists
 		Hashtables
 		Maps
 		Graphs
