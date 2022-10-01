@@ -2,6 +2,7 @@
 
 // Call a header and use a function;
 // #include "OOPCheck.h"
+#include "PolyCheck.h"
 #include <unordered_map>
 
 class Check
@@ -30,10 +31,12 @@ Check::~Check()
 
 int main() { 
 
-	Check C("HI", 15), D("Hello",2);
+	/*Check C("HI", 15), D("Hello",2);
 	const char* x = "HI";
-	std::cout << C.Map[x] << "\n";
+	std::cout << C.Map[x] << "\n";*/
 
+	PolyCheck x = PolyCheck();
+	x.Do();
 
 	/*
 		Arrays

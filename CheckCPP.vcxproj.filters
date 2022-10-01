@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\FunStuffToDo">
+      <UniqueIdentifier>{137f1cf2-7ba9-47b1-b78c-4ba160ac0b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphs">
+      <UniqueIdentifier>{e97ff3f0-b98b-402a-81fa-918dc243455a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CheckCPP.cpp">
@@ -24,9 +30,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkedListCheck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GraphCheck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="StackCheck.h">
@@ -44,16 +47,31 @@
     <ClInclude Include="SmartPCheck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OOPCheck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Multithreading.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NaiveGraphCheck.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="KSumAddition.h">
+      <Filter>Header Files\FunStuffToDo</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCheck.h">
+      <Filter>Header Files\Graphs</Filter>
     </ClInclude>
     <ClInclude Include="GraphTraversalCheck.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="NaiveGraphCheck.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="RansomNote.h">
+      <Filter>Header Files\FunStuffToDo</Filter>
+    </ClInclude>
+    <ClInclude Include="SudokuChallenge.h">
+      <Filter>Header Files\FunStuffToDo</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OOPCheck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

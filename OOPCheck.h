@@ -14,7 +14,7 @@ void Swap(T& first, T& second)
 	std::cout << first << "  " << second;
 }
 
-
+ 
 class OOPCheck
 {
 public:

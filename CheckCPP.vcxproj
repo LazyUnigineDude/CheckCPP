@@ -145,14 +145,18 @@
   <ItemGroup>
     <ClInclude Include="GraphCheck.h" />
     <ClInclude Include="GraphTraversalCheck.h" />
+    <ClInclude Include="KSumAddition.h" />
     <ClInclude Include="LinkedListCheck.h" />
     <ClInclude Include="MapCheck.h" />
     <ClInclude Include="Multithreading.h" />
     <ClInclude Include="NaiveGraphCheck.h" />
     <ClInclude Include="OOPCheck.h" />
+    <ClInclude Include="PolyCheck.h" />
     <ClInclude Include="QueueCheck.h" />
+    <ClInclude Include="RansomNote.h" />
     <ClInclude Include="SmartPCheck.h" />
     <ClInclude Include="StackCheck.h" />
+    <ClInclude Include="SudokuChallenge.h" />
     <ClInclude Include="VectorCheck.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
