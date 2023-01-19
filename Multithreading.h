@@ -5,6 +5,7 @@
 #include <thread>
 #include <vector>
 #include <future>
+#include <mutex>
 #include <shared_mutex>
 
 // Prints A 15 times
@@ -40,6 +41,7 @@ void MutexLock(int y) {
 	std::mutex Mutex;
 	Mutex.lock();
 	y++;
+	std::cout << y;
 	Mutex.unlock();
 }
 
@@ -126,4 +128,12 @@ void Multithreading::MainProg() {
 		std::cout << y;
 
 	}
+
+	// Deadlock Fix
+	///////////////////////////////////////////////
+	{
+		std::mutex G1, G2;
+		std::scoped_lock lock(G1,G2);
+	}
+
 }
