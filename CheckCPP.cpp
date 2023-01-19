@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <vector>
+#include "Multithreading.h"
 
 using namespace std;
 
@@ -97,18 +98,23 @@ std::string destCity(vector<vector<string>>& paths) {
 
 int matrixScore(vector<vector<int>>& grid) {
 
-     
-
+    // Change All rows so the first is always one
+    // then manage columns
 
     return 0x14;
 }
+
 
 int main() {
 
     // T Trusc;
     //vector<vector<string>> paths = { {"London", "New York"} ,{"New York", "Lima"},{"Lima", "Sao Paulo" }};
-    vector<vector<int>> grids = { {0,0,1,1},{1,0,1,0},{1,1,0,0} };
-    std::cout << matrixScore(grids);
+  //  vector<vector<int>> grids = { {0,0,1,1},{1,0,1,0},{1,1,0,0} };
+  //  std::cout << matrixScore(grids);
+
+    Multithreading M;
+    M.Sender();
+
 }
 
 
