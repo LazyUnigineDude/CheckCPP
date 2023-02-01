@@ -112,9 +112,6 @@ int main() {
   //  vector<vector<int>> grids = { {0,0,1,1},{1,0,1,0},{1,1,0,0} };
   //  std::cout << matrixScore(grids);
 
-    Multithreading M;
-    M.Sender();
-
 }
 
 
