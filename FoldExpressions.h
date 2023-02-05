@@ -1,5 +1,7 @@
 #pragma once
 
+// CXX17
+// Variadic Expression
 template <typename T>
 T findTotal(T lastone) {
     return lastone;
