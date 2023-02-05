@@ -74,5 +74,8 @@
     <ClInclude Include="OOPCheck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="KSortQueue.h">
+      <Filter>Header Files\FunStuffToDo</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

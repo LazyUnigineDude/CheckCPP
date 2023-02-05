@@ -1,86 +1,20 @@
 ﻿#include <iostream>
-#include <vector>
 #include "Multithreading.h"
 
 using namespace std;
 
-struct vec2 {
-    int x, y;
-    vec2() = default;
-    vec2(int x, int y) { this->x = x; this->y = y; }
-};
+using func_ptrs = void(*)();
+void fx(), fy(), fz();
 
-vector<vec2> sort(int k, vector<vec2> posRes) {
-
-    vector<vec2> ans;
-    for (int i = 0; i < posRes.size(); i++) {
-
-        if (posRes[i].y <= k)
-            ans.push_back(posRes[i]);
-        else {
-            vec2 _x;
-            _x.x = posRes[i].x;
-            _x.y = posRes[i].y - k;
-            posRes.erase(posRes.begin() + i);
-            posRes.push_back(_x);
-          return sort(k, posRes);
-        }
+func_ptrs functions[3] = { fx, fy, fz };
+void x() {
+    for (int i = 0; i < 3; i++)
+    {
+        functions[i]();
     }
-    return ans;
 }
 
-vector<int> getFinalOrder(int k, vector<int> amount) {
 
-    vector<int> res;
-    vector<vec2> posRes;
-
-    for (int i = 0; i < amount.size(); i++) {
-        vec2 _x;
-        _x.x = i + 1;
-        _x.y = amount[i];
-        posRes.push_back(_x);
-    }
-
-    posRes = sort(k, posRes);
-    for (auto& i : posRes) {
-        res.push_back(i.x);
-    }
-    return res;
-}
-
-//template <typename T>
-//T findTotal(T lastone) {
-//    return lastone;
-//}
-//
-//template <typename T, typename ...p>
-//T findTotal(T head, p ...tail) { // fold expressions
-//
-//    if (sizeof...(tail))
-//        head += findTotal(tail...);
-//    return head;
-//}
-//
-//int main() {
-//    double total = findTotal(2.17, 3.0, 4.5, 3.14);
-//    std::cout << total;
-//}
-
-//using func_ptrs = void(*)();
-//
-//void fx(), fy(), fz();
-//
-//func_ptrs functions[3] = { fx, fy, fz };
-//void x() {
-//    for (int i = 0; i < 3; i++)
-//    {
-//        functions[i]();
-//    }
-//}
-
-class V { public: ~V() { std::cout << "V\n"; } };
-class E { public: ~E() { std::cout << "E\n"; } };
-class T : V { public: ~T() { std::cout << "T\n"; } private: E e; };
 
 
 #include <unordered_set>
@@ -107,7 +41,6 @@ int matrixScore(vector<vector<int>>& grid) {
 
 int main() {
 
-    // T Trusc;
     //vector<vector<string>> paths = { {"London", "New York"} ,{"New York", "Lima"},{"Lima", "Sao Paulo" }};
   //  vector<vector<int>> grids = { {0,0,1,1},{1,0,1,0},{1,1,0,0} };
   //  std::cout << matrixScore(grids);
