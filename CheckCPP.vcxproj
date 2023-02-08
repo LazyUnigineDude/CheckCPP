@@ -145,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AirplaneDestCheck.h" />
+    <ClInclude Include="Concepts.h" />
     <ClInclude Include="CXX14.h" />
     <ClInclude Include="CXX17.h" />
     <ClInclude Include="CXX20.h" />
