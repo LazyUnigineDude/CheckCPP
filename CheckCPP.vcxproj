@@ -151,6 +151,7 @@
     <ClInclude Include="InheritanceOrderCheck.h" />
     <ClInclude Include="KSortQueue.h" />
     <ClInclude Include="KSumAddition.h" />
+    <ClInclude Include="AdvFunctions.h" />
     <ClInclude Include="LinkedListCheck.h" />
     <ClInclude Include="MapCheck.h" />
     <ClInclude Include="MaxGridOnes.h" />

@@ -89,5 +89,8 @@
     <ClInclude Include="MaxGridOnes.h">
       <Filter>Header Files\FunStuffToDo</Filter>
     </ClInclude>
+    <ClInclude Include="AdvFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
