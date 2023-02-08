@@ -16,14 +16,14 @@
     <Filter Include="Header Files\FunStuffToDo">
       <UniqueIdentifier>{137f1cf2-7ba9-47b1-b78c-4ba160ac0b44}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Graphs">
-      <UniqueIdentifier>{e97ff3f0-b98b-402a-81fa-918dc243455a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\C++11">
       <UniqueIdentifier>{4ebb3f51-c7c9-4f46-be68-865401b7508e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Data Structures">
       <UniqueIdentifier>{a029cda8-0054-4ea3-a587-d1cbf8ed22f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Structures\Graphs">
+      <UniqueIdentifier>{e97ff3f0-b98b-402a-81fa-918dc243455a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -45,13 +45,13 @@
       <Filter>Header Files\FunStuffToDo</Filter>
     </ClInclude>
     <ClInclude Include="GraphCheck.h">
-      <Filter>Header Files\Graphs</Filter>
+      <Filter>Header Files\Data Structures\Graphs</Filter>
     </ClInclude>
     <ClInclude Include="GraphTraversalCheck.h">
-      <Filter>Header Files\Graphs</Filter>
+      <Filter>Header Files\Data Structures\Graphs</Filter>
     </ClInclude>
     <ClInclude Include="NaiveGraphCheck.h">
-      <Filter>Header Files\Graphs</Filter>
+      <Filter>Header Files\Data Structures\Graphs</Filter>
     </ClInclude>
     <ClInclude Include="RansomNote.h">
       <Filter>Header Files\FunStuffToDo</Filter>
@@ -59,7 +59,7 @@
     <ClInclude Include="SudokuChallenge.h">
       <Filter>Header Files\FunStuffToDo</Filter>
     </ClInclude>
-    <ClInclude Include="PolyCheck.h">
+    <ClInclude Include="PolymorphismCheck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="OOPCheck.h">
@@ -97,6 +97,12 @@
     </ClInclude>
     <ClInclude Include="VectorCheck.h">
       <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Variyadic Templates.h">
+      <Filter>Header Files\C++11</Filter>
+    </ClInclude>
+    <ClInclude Include="MainStuff.h">
+      <Filter>Header Files\C++11</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

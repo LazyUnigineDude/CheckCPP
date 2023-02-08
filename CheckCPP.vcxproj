@@ -153,17 +153,19 @@
     <ClInclude Include="KSumAddition.h" />
     <ClInclude Include="FunctionPtrs.h" />
     <ClInclude Include="LinkedListCheck.h" />
+    <ClInclude Include="MainStuff.h" />
     <ClInclude Include="MapCheck.h" />
     <ClInclude Include="MaxGridOnes.h" />
     <ClInclude Include="Multithreading.h" />
     <ClInclude Include="NaiveGraphCheck.h" />
     <ClInclude Include="OOPCheck.h" />
-    <ClInclude Include="PolyCheck.h" />
+    <ClInclude Include="PolymorphismCheck.h" />
     <ClInclude Include="QueueCheck.h" />
     <ClInclude Include="RansomNote.h" />
     <ClInclude Include="SmartPCheck.h" />
     <ClInclude Include="StackCheck.h" />
     <ClInclude Include="SudokuChallenge.h" />
+    <ClInclude Include="Variyadic Templates.h" />
     <ClInclude Include="VectorCheck.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
