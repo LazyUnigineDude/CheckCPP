@@ -21,17 +21,19 @@ public:
 		//int* x = &y;
 
 		//			Value Y		Address Y	 Address Y		Address X	  Value Y
-		 std::cout << y << "  " << &y << "  " << x << "  " << &x << "  " << *x;
+		 std::cout << y << "  " << &y << "  " << x << "  " << &x << "  " << *x << "\n\n";
+
+		 std::shared_ptr<int> shared = std::make_shared<int>(y);
+		 std::cout << "Out Scope: " << shared.use_count() << "\n";
+		 {
+			 std::shared_ptr<int> inScope = shared;
+			 std::cout << "In Scope: " << inScope.use_count() << "\n";
+		 }
+		 std::cout << "Out Scope: " << shared.use_count() << "\n\n";
+
+		 std::weak_ptr<int> weak = shared;
+		 std::cout << "Added Weak: " << shared.use_count() << "\n";
 	}
-
-	void Release(const std::function<std::string()> &X) { std::cout << X(); }
-	std::string MakeMe() { return "NEVAAA"; }
-
-	// Function Pointers of different type  ew.
-	int SumNum(int (*FncName)(int), int x) { return FncName(x) + x; }
-
-	int SumNum(const std::function<int(int)> &NumFnc, int Num1) { return (NumFnc(Num1) + Num1); }
-	int DoubleNum(int Num1) { return Num1 * Num1; }
 
 };
 
