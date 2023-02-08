@@ -7,7 +7,7 @@ struct CXX14 {
 	CXX14() {
 		std::vector<std::string> Items = {
 		"Variable Templates [ template<class T> T obj = var; ]",
-		"Generic Lambda Capture clauses [ auto x = [/*&*/ this /*=*/](){}; ]",
+		"Generic Lambda Capture clauses [ auto x = [/*&*/ var /*=*/](){}; ]",
 		"Binary Literals [ 0x2a, 0b10010 ]",
 		"Make uniques [ std::unique_ptr<type> var = std::make_unique<type>(value); ]",
 		"Shared_Lock",
