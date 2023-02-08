@@ -28,6 +28,12 @@
     <Filter Include="Header Files\C++14">
       <UniqueIdentifier>{db045063-9d43-4b5a-ad57-4b3c37d899c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\C++17">
+      <UniqueIdentifier>{2e260d45-cf51-4af8-90f7-293b60c6d86b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\C++20">
+      <UniqueIdentifier>{2483a021-ed7d-46ce-a723-aab94c22df7e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CheckCPP.cpp">
@@ -38,12 +44,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SmartPCheck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Multithreading.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="KSumAddition.h">
       <Filter>Header Files\FunStuffToDo</Filter>
     </ClInclude>
@@ -62,12 +62,6 @@
     <ClInclude Include="SudokuChallenge.h">
       <Filter>Header Files\FunStuffToDo</Filter>
     </ClInclude>
-    <ClInclude Include="PolymorphismCheck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="OOPCheck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="KSortQueue.h">
       <Filter>Header Files\FunStuffToDo</Filter>
     </ClInclude>
@@ -82,9 +76,6 @@
     </ClInclude>
     <ClInclude Include="MaxGridOnes.h">
       <Filter>Header Files\FunStuffToDo</Filter>
-    </ClInclude>
-    <ClInclude Include="FunctionPtrs.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LinkedListCheck.h">
       <Filter>Header Files\Data Structures</Filter>
@@ -104,7 +95,25 @@
     <ClInclude Include="Variyadic Templates.h">
       <Filter>Header Files\C++11</Filter>
     </ClInclude>
-    <ClInclude Include="MainStuff.h">
+    <ClInclude Include="CXX11.h">
+      <Filter>Header Files\C++11</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX14.h">
+      <Filter>Header Files\C++14</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPtrs.h">
+      <Filter>Header Files\C++11</Filter>
+    </ClInclude>
+    <ClInclude Include="Multithreading.h">
+      <Filter>Header Files\C++11</Filter>
+    </ClInclude>
+    <ClInclude Include="OOPCheck.h">
+      <Filter>Header Files\C++11</Filter>
+    </ClInclude>
+    <ClInclude Include="PolymorphismCheck.h">
+      <Filter>Header Files\C++11</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPointerCheck.h">
       <Filter>Header Files\C++11</Filter>
     </ClInclude>
   </ItemGroup>
