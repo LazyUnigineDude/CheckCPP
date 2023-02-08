@@ -173,7 +173,7 @@ void Multithreading::MainProg() {
 	}
 	{
 		std::shared_lock<std::shared_mutex> WatchShared(MutexShared);
-		std::cout << _y;
+		std::cout << _y; // CXX14
 
 	}
 

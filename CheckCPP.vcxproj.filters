@@ -40,7 +40,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LinkedListCheck.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\Data Structures</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -110,14 +110,14 @@
     <ClInclude Include="PolymorphismCheck.h">
       <Filter>Header Files\C++11</Filter>
     </ClInclude>
-    <ClInclude Include="SmartPointerCheck.h">
-      <Filter>Header Files\C++11</Filter>
-    </ClInclude>
     <ClInclude Include="CXX17.h">
       <Filter>Header Files\C++17</Filter>
     </ClInclude>
     <ClInclude Include="FoldExpressions.h">
       <Filter>Header Files\C++17</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdatedSmartPointer.h">
+      <Filter>Header Files\C++14</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

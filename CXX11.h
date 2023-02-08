@@ -18,7 +18,7 @@ struct CXX11 {
 			"Literals [ char16_t* x = u\"String\" ]",
 			"Attributes [ [[noreturn]] void f() {throw \"error\";} ]",
 			"Lambda expressions [ [](){}; ]",
-			"Smart Pointers [ std::unique_ptr ]",
+			"Smart Pointers [ std::unique_ptr && std::shared_ptr ]",
 			"Multithreading [ std::thread, std::atomic, std::mutex ]\n"
 		};
 

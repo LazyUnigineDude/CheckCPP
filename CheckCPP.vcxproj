@@ -150,6 +150,7 @@
     <ClInclude Include="FoldExpressions.h" />
     <ClInclude Include="GraphCheck.h" />
     <ClInclude Include="GraphTraversalCheck.h" />
+    <ClInclude Include="UpdatedSmartPointer.h" />
     <ClInclude Include="InheritanceOrderCheck.h" />
     <ClInclude Include="KSortQueue.h" />
     <ClInclude Include="KSumAddition.h" />
@@ -164,7 +165,6 @@
     <ClInclude Include="PolymorphismCheck.h" />
     <ClInclude Include="QueueCheck.h" />
     <ClInclude Include="RansomNote.h" />
-    <ClInclude Include="SmartPointerCheck.h" />
     <ClInclude Include="StackCheck.h" />
     <ClInclude Include="SudokuChallenge.h" />
     <ClInclude Include="Variyadic Templates.h" />

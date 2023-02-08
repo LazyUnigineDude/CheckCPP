@@ -9,8 +9,8 @@ struct CXX14 {
 			"Variable Templates [ template<class T> T obj = var; ]",
 			"Generic Lambda Capture clauses [ auto x = [/*&*/ var /*=*/](){}; ]",
 			"Binary Literals [ 0x2a, 0b10010 ]",
-			"Make uniques [ std::unique_ptr<type> var = std::make_unique<type>(value); ]",
-			"Shared_Lock",
+			"Make Smart Pointer [ std::unique_ptr<type> var = std::make_unique<type>(value); ]",
+			"Shared_Lock for Multithreading [ std::shared_lock<std::shared_mutex> Lock(Mutex) ]",
 			"Aggregate Classes [ class Foo{int x, y, z[2]; }; int main(){ Foo x = {1, 2 , {3,4} }; } ]"
 		};
 
