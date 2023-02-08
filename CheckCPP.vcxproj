@@ -146,6 +146,7 @@
   <ItemGroup>
     <ClInclude Include="AirplaneDestCheck.h" />
     <ClInclude Include="CXX14.h" />
+    <ClInclude Include="CXX17.h" />
     <ClInclude Include="FoldExpressions.h" />
     <ClInclude Include="GraphCheck.h" />
     <ClInclude Include="GraphTraversalCheck.h" />

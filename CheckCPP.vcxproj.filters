@@ -68,9 +68,6 @@
     <ClInclude Include="InheritanceOrderCheck.h">
       <Filter>Header Files\FunStuffToDo</Filter>
     </ClInclude>
-    <ClInclude Include="FoldExpressions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="AirplaneDestCheck.h">
       <Filter>Header Files\FunStuffToDo</Filter>
     </ClInclude>
@@ -115,6 +112,12 @@
     </ClInclude>
     <ClInclude Include="SmartPointerCheck.h">
       <Filter>Header Files\C++11</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX17.h">
+      <Filter>Header Files\C++17</Filter>
+    </ClInclude>
+    <ClInclude Include="FoldExpressions.h">
+      <Filter>Header Files\C++17</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
