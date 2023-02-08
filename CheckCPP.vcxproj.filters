@@ -25,6 +25,9 @@
     <Filter Include="Header Files\Data Structures\Graphs">
       <UniqueIdentifier>{e97ff3f0-b98b-402a-81fa-918dc243455a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\C++14">
+      <UniqueIdentifier>{db045063-9d43-4b5a-ad57-4b3c37d899c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CheckCPP.cpp">

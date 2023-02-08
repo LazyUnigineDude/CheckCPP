@@ -145,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AirplaneDestCheck.h" />
+    <ClInclude Include="CXX14.h" />
     <ClInclude Include="FoldExpressions.h" />
     <ClInclude Include="GraphCheck.h" />
     <ClInclude Include="GraphTraversalCheck.h" />
@@ -153,7 +154,7 @@
     <ClInclude Include="KSumAddition.h" />
     <ClInclude Include="FunctionPtrs.h" />
     <ClInclude Include="LinkedListCheck.h" />
-    <ClInclude Include="MainStuff.h" />
+    <ClInclude Include="CXX11.h" />
     <ClInclude Include="MapCheck.h" />
     <ClInclude Include="MaxGridOnes.h" />
     <ClInclude Include="Multithreading.h" />

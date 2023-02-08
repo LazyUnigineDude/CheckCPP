@@ -2,9 +2,9 @@
 #include <iostream>
 #include <vector>
 
-struct MainStuff {
+struct CXX11 {
 
-	MainStuff() {
+	CXX11() {
 		std::vector<std::string> Items = {
 		"auto, decltype, final, delete, override, nullptr, union, long long, char16_t && char32_t",
 		"constexp, noexcept, alignof, alignas, for(auto &i : val)",
@@ -22,10 +22,8 @@ struct MainStuff {
 		"Multithreading [ std::thread, std::atomic, std::mutex ]\n"
 		};
 
-
 		std::cout << "List of Stuff:\n\n";
 		Func(Items);
-
 	}
 
 	void Func(std::vector<std::string> strings) {
