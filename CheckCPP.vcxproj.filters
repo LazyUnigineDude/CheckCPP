@@ -125,5 +125,8 @@
     <ClInclude Include="Concepts.h">
       <Filter>Header Files\C++20</Filter>
     </ClInclude>
+    <ClInclude Include="Coroutines.h">
+      <Filter>Header Files\C++20</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

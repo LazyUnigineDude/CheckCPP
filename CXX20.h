@@ -14,13 +14,14 @@ struct CXX20 {
 			"Ranged For init clause [ for(int x = 0; auto &i : obj){} ]",
 			"Attributes: no_unique_address, likely, unlikely",
 			"Packs in Lambda capture templates [ auto x = []<typename ...T>(T ...t){}; ]",
-			"Coroutines (co_await, co_yeild, co_return)",
-			"Modules [ export module projname; import <iostream>; export void fnc(){} ||| import projname; int main(){fnc();}]"
+			"Coroutines (co_await, co_yeild, co_return) [ Coroutines.h for more info... ]",
+			"Modules [ export module projname; import <iostream>; export void fnc(){} ||| import projname; int main(){fnc();} ]",
+			"Concepts and Constraints [ Concepts.h for more info... ]",
+			"Abbreviated templates [ void func(auto); /*same as template<class T>void func(T)*/ ]",
 		};
 
 		std::cout << "List of Stuff:\n\n";
 		Func(Items);
-
 	}
 
 	void Func(std::vector<std::string> strings) {
