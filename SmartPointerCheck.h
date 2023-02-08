@@ -16,14 +16,14 @@ public:
 
     void CheckPointer() {
 
-		std::unique_ptr<int> x = std::make_unique<int>(y);
+		std::unique_ptr<int> x = std::make_unique<int>(y); // make_unique CXX14
 		//int y = 10;
 		//int* x = &y;
 
 		//			Value Y		Address Y	 Address Y		Address X	  Value Y
 		 std::cout << y << "  " << &y << "  " << x << "  " << &x << "  " << *x << "\n\n";
 
-		 std::shared_ptr<int> shared = std::make_shared<int>(y);
+		 std::shared_ptr<int> shared = std::make_shared<int>(y);// make_shared CXX14
 		 std::cout << "Out Scope: " << shared.use_count() << "\n";
 		 {
 			 std::shared_ptr<int> inScope = shared;
