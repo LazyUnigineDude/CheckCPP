@@ -10,7 +10,7 @@ struct CXX17 {
 			"Compile if constexpr [ if constexpr (true) {} else {}; ]",
 			"Initializer if statement [ if(int x = 5; x < var){} ]",
 			"Constexpr Lambda [ int x = [](int v){}; constexpr int y = x(2); ]",
-			"Inline KeyWorld [ inline void Fnc(){}; ]",
+			"Inline KeyWord [ inline void Fnc(){}; ]",
 			"Structured Bindings [ struct S { int x, y; }; int main(){ auto [x,y] = S {1,2}; } ]",
 			"Temporary materialization [ struct S {int x; };  int main(){ int y = S().x; }]",
 			"Class Template Argument Deduction [ template <typename T> Struct S{ S(T,T); }; auto z = A{1,2}; ]",			

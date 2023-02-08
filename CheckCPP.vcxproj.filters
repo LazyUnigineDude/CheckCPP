@@ -119,5 +119,8 @@
     <ClInclude Include="UpdatedSmartPointer.h">
       <Filter>Header Files\C++14</Filter>
     </ClInclude>
+    <ClInclude Include="CXX20.h">
+      <Filter>Header Files\C++20</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
