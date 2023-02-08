@@ -19,6 +19,12 @@
     <Filter Include="Header Files\Graphs">
       <UniqueIdentifier>{e97ff3f0-b98b-402a-81fa-918dc243455a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\C++11">
+      <UniqueIdentifier>{4ebb3f51-c7c9-4f46-be68-865401b7508e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Structures">
+      <UniqueIdentifier>{a029cda8-0054-4ea3-a587-d1cbf8ed22f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CheckCPP.cpp">
@@ -29,21 +35,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LinkedListCheck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="StackCheck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="QueueCheck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MapCheck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VectorCheck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="SmartPCheck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -89,8 +80,23 @@
     <ClInclude Include="MaxGridOnes.h">
       <Filter>Header Files\FunStuffToDo</Filter>
     </ClInclude>
-    <ClInclude Include="AdvFunctions.h">
+    <ClInclude Include="FunctionPtrs.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListCheck.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCheck.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueCheck.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="StackCheck.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorCheck.h">
+      <Filter>Header Files\Data Structures</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
