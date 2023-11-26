@@ -34,6 +34,9 @@
     <Filter Include="Header Files\C++20">
       <UniqueIdentifier>{2483a021-ed7d-46ce-a723-aab94c22df7e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\DesignPatterns">
+      <UniqueIdentifier>{00f03af9-e192-4bd9-af32-bdaba3a2723f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CheckCPP.cpp">
@@ -127,6 +130,9 @@
     </ClInclude>
     <ClInclude Include="Coroutines.h">
       <Filter>Header Files\C++20</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyPattern.h">
+      <Filter>Header Files\DesignPatterns</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
