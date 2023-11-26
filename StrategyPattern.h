@@ -27,14 +27,31 @@ public:
 };
 
 
-struct StrategyPattern {
+struct Strategy {
 
 public:
 	
-	StrategyPattern(IBehaviour* Object) {
+	Strategy(IBehaviour* Object) {
 		this->Object = Object;
 	}
+
+	void Execute() { Object->Execute(); }
 
 private:
 	IBehaviour* Object;
 };
+
+void main() {
+
+
+	NewBehaviourA A;
+	NewBehaviourB B;
+
+	Strategy *S1, *S2;
+
+	S1 = new Strategy(&A);
+	S2 = new Strategy(&B);
+
+	S1->Execute();
+	S2->Execute();
+}

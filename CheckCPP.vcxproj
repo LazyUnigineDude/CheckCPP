@@ -153,6 +153,7 @@
     <ClInclude Include="FoldExpressions.h" />
     <ClInclude Include="GraphCheck.h" />
     <ClInclude Include="GraphTraversalCheck.h" />
+    <ClInclude Include="ObserverPattern.h" />
     <ClInclude Include="StrategyPattern.h" />
     <ClInclude Include="UpdatedSmartPointer.h" />
     <ClInclude Include="InheritanceOrderCheck.h" />

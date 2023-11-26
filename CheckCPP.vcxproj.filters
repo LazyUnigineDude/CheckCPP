@@ -134,5 +134,8 @@
     <ClInclude Include="StrategyPattern.h">
       <Filter>Header Files\DesignPatterns</Filter>
     </ClInclude>
+    <ClInclude Include="ObserverPattern.h">
+      <Filter>Header Files\DesignPatterns</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
