@@ -1,11 +1,10 @@
 #pragma once
-
+#include <iostream>
 
 struct IBehaviour {
 
 public:
 	IBehaviour() = default;
-	virtual ~IBehaviour() = 0;
 	virtual void Execute() = 0;
 };
 
@@ -13,8 +12,7 @@ struct NewBehaviourA : IBehaviour {
 
 public:
 	NewBehaviourA() {}
-	~NewBehaviourA() override {}
-	void Execute() override {}
+	void Execute() override { std::cout << "Execution 1\n"; }
 };
 
 
@@ -22,8 +20,7 @@ struct NewBehaviourB : IBehaviour {
 
 public:
 	NewBehaviourB() {}
-	~NewBehaviourB() override {}
-	void Execute() override {}
+	void Execute() override { std::cout << "Execution 2\n"; }
 };
 
 
@@ -41,17 +38,17 @@ private:
 	IBehaviour* Object;
 };
 
-void main() {
+int main() {
 
 
 	NewBehaviourA A;
 	NewBehaviourB B;
 
-	Strategy *S1, *S2;
+	Strategy S1 = Strategy(&A);
+	Strategy S2 = Strategy(&B);
 
-	S1 = new Strategy(&A);
-	S2 = new Strategy(&B);
+	S1.Execute();
+	S2.Execute();
 
-	S1->Execute();
-	S2->Execute();
+	return 0;
 }
