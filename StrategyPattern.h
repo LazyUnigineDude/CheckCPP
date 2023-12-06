@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+// Addon + Command ish Pattern
 
 struct IBehaviour {
 

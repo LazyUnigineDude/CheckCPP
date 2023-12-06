@@ -145,5 +145,8 @@
     <ClInclude Include="SingletonPattern.h">
       <Filter>Header Files\DesignPatterns</Filter>
     </ClInclude>
+    <ClInclude Include="CommandPattern.h">
+      <Filter>Header Files\DesignPatterns</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

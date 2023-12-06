@@ -1,4 +1,5 @@
 #pragma once
+// Global Database Pattern
 
 struct Singleton {
 

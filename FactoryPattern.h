@@ -1,4 +1,5 @@
 #pragma once
+// Preset Pattern
 
 struct Product {};
 struct Type1 : Product {};
@@ -10,6 +11,7 @@ struct Type1Factory : Factory { Product Return() override { return Type1(); } };
 struct Type2Factory : Factory { Product Return() override { return Type2(); } };
 
 ////////////////////////////////////////////////////////////////////////////////////
+// Preset Theme Pattern
 
 struct Product1 {};
 struct Product1T1 : Product1 {};

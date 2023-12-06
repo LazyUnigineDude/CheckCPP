@@ -146,6 +146,7 @@
   <ItemGroup>
     <ClInclude Include="AbstractandInterface.h" />
     <ClInclude Include="AirplaneDestCheck.h" />
+    <ClInclude Include="CommandPattern.h" />
     <ClInclude Include="Concepts.h" />
     <ClInclude Include="Coroutines.h" />
     <ClInclude Include="CXX14.h" />
