@@ -133,5 +133,17 @@
     <ClInclude Include="ObserverPattern.h">
       <Filter>Header Files\DesignPatterns</Filter>
     </ClInclude>
+    <ClInclude Include="DecoratorPattern.h">
+      <Filter>Header Files\DesignPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractandInterface.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryPattern.h">
+      <Filter>Header Files\DesignPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonPattern.h">
+      <Filter>Header Files\DesignPatterns</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

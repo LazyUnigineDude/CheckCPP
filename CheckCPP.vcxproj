@@ -144,16 +144,20 @@
     <ClCompile Include="LinkedListCheck.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractandInterface.h" />
     <ClInclude Include="AirplaneDestCheck.h" />
     <ClInclude Include="Concepts.h" />
     <ClInclude Include="Coroutines.h" />
     <ClInclude Include="CXX14.h" />
     <ClInclude Include="CXX17.h" />
     <ClInclude Include="CXX20.h" />
+    <ClInclude Include="DecoratorPattern.h" />
+    <ClInclude Include="FactoryPattern.h" />
     <ClInclude Include="FoldExpressions.h" />
     <ClInclude Include="GraphCheck.h" />
     <ClInclude Include="GraphTraversalCheck.h" />
     <ClInclude Include="ObserverPattern.h" />
+    <ClInclude Include="SingletonPattern.h" />
     <ClInclude Include="StrategyPattern.h" />
     <ClInclude Include="UpdatedSmartPointer.h" />
     <ClInclude Include="InheritanceOrderCheck.h" />
