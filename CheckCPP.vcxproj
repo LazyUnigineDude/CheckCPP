@@ -154,10 +154,12 @@
     <ClInclude Include="CXX17.h" />
     <ClInclude Include="CXX20.h" />
     <ClInclude Include="DecoratorPattern.h" />
+    <ClInclude Include="FacadePattern.h" />
     <ClInclude Include="FactoryPattern.h" />
     <ClInclude Include="FoldExpressions.h" />
     <ClInclude Include="GraphCheck.h" />
     <ClInclude Include="GraphTraversalCheck.h" />
+    <ClInclude Include="BestPractices.h" />
     <ClInclude Include="ObserverPattern.h" />
     <ClInclude Include="SingletonPattern.h" />
     <ClInclude Include="StrategyPattern.h" />
