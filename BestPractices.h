@@ -31,5 +31,6 @@ void ClearFunctionNameExpressingAction(int ClearName) {  }
 */
 
 std::shared_ptr<int> X(std::unique_ptr<int> x) { return std::make_shared<int>(*x); }
-//std::shared_ptr<int> y = X(std::move(g));
-//std::cout << "Count: " << y.use_count() << "\n";
+//Just use normal * in arg if you dont intend to change the pointers and only their values
+//std::shared_ptr<int> sPtr = X(std::move(uPtr));
+//std::cout << "Count: " << sPtr.use_count() << "\n";
